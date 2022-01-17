@@ -5,6 +5,9 @@ const CONFIG = {
   DEFAULT_LANGUAGE: 'en-us',
   CACHE_NAME: 'MovieCatalogue-V1',
   // CACHE_NAME: new Date().toISOString(),
+  DATABASE_NAME: 'movie-catalogue-database',
+  DATABASE_VERSION: 1,
+  OBJECT_STORE_NAME: 'movies',
 };
 
 export default CONFIG;
